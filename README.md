@@ -14,3 +14,4 @@ he blessed me with his bean powers
 and with his help i was able to fully complete...
 one hour of work.
 so my grades are still a rip lul.
+actually i like shoes.

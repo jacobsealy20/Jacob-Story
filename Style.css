@@ -1,15 +1,73 @@
-body {border:3px dashed black; Background-color: #00FFF0;
+body {border:10px solid black; Background-color: green;
 	}
 	Div
 	{
 		Display:block;
 		padding:20px,10px,20px,10px;
 	}
-	.header{
-		backround-color: #F1F1F1;
-		Text-align: center;
-	padding:20px; }
-	
-	.paragraph{
-		backround-color:#FFFFFF;
+/* Style the header */
+.header {
+    background-color:white;
+    text-align: center;
+    padding: 20px;
+}
+/* Style the paragraph */
+.paragraph{
+		background-color: gray;
+		border: 5px solid black;
+			text-align:center;
+			color:white;
+}
+.endtag{
+		background-color: yellow;
+		border: 2px solid black;
+			text-align:center;
+			color:black;
+}
+
+ .fontsize{
+ size:13;
+ }
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the top navigation links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* The navigation bar container */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Navigation bar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
 		

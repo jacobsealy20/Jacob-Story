@@ -19,10 +19,10 @@ body {border:10px solid black; Background-color: green;
 			color:white;
 }
 .endtag{
-		background-color: yellow;
-		border: 2px solid black;
-			text-align:center;
-			color:black;
+	background-color: yellow;
+	border: 2px solid black;
+	text-align:center;
+	color:black;
 }
 
  .fontsize{
@@ -70,4 +70,21 @@ body {border:10px solid black; Background-color: green;
     background-color: #ddd;
     color: black;
 }
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
 		
